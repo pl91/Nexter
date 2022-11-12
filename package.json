@@ -1,11 +1,11 @@
 {
-  "name": "Nexter",
+  "name": "nexter-app",
   "version": "1.0.0",
   "description": "Nexter webpage",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "dev": "parcel",
+    "dev": "parcel --open firefox",
     "build": "parcel build"
   },
   "author": "Paul",
