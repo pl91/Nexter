@@ -8,9 +8,16 @@
     list-style: none;
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     grid-gap: 2rem;
     align-items: center;
+
+    @media only screen and (max-width: 56.25em) {
+        grid-template-rows: repeat(2, minmax(min-content, max-content));
+        grid-template-columns: repeat(3, minmax(min-content, max-content));
+        justify-content: center;
+        grid-column-gap: 8rem;
+        }
 
     // display: flex;
     // gap: 2rem;
