@@ -8,7 +8,7 @@
     "dev": "parcel --open firefox",
     "build": "parcel build"
   },
-  "author": "Paul",
+  "author": "Paul Liani",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
